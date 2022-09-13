@@ -1,4 +1,4 @@
-# NLW eSports Mobile
+# NLW eSports Mobile ![Badge](https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT)
 
 ![Logo do evento](src/assets/logo-nlw-esports.png "NLW eSports")
 
