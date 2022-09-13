@@ -24,12 +24,12 @@ Para testar o aplicativo, clone o repositório e instale as dependências.
 Com NPM
 
 ```
-    npm install
+npm install
 ```
 
 Com yarn
 
 ```
-    yarn install
+yarn install
 ```
 
