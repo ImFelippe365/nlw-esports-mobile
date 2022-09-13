@@ -1,15 +1,16 @@
-# NLW eSports Mobile ![Badge](https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT)
-
-![Logo do evento](src/assets/logo-nlw-esports.png "NLW eSports")
-
-Aplicativo mobile para encontrar um duo, e se conectar para jogar juntos.
+# NLW eSports Mobile ![Badge](https://img.shields.io/static/v1?label=expo-cli&message=5.4.8&color=white&style=flat&logo=EXPO) ![Badge](https://img.shields.io/static/v1?label=react&message=v18.2.0&color=blue&style=flat&logo=REACT) ![Badge](https://img.shields.io/static/v1?label=typescript&message=v4.7.4&color=blue&style=flat&logo=TYPESCRIPT)
+ 
+<p align="center">
+  <img src="src/assets/logo-nlw-esports@2x.png" />
+</p>
+Aplicativo mobile para encontrar um duo e se conectar para jogar juntos. É possível criar anúncios de um jogo em específico dentro da plataforma para que as pessoas encontrem e se conectem com a pessoa desejada. 
 
 Durante o evento do NLW da Rocketseat, essa foi a aplicação a ser desenvolvida durante o evento.
 E ao decorrer dos 6 dias de evento, este foi o resultado final do aplicativo mobile.
 
 Além do atual projeto, também foi feito uma aplicação para a web e um backend.
 
-- Projeto **[NLW eSports Web](https://github.com/ImFelippe365/nlw-esports-web)**
+- **[NLW eSports Web](https://github.com/ImFelippe365/nlw-esports-web)**
 
 ## Tecnologias utilizadas dentro do projeto
 
