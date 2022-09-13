@@ -23,13 +23,13 @@ Para testar o aplicativo, clone o repositório e instale as dependências.
 
 Com NPM
 
-``
+```
     npm install
-``
+```
 
 Com yarn
 
-``
+```
     yarn install
-``
+```
 
