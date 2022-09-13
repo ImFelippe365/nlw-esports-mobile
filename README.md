@@ -15,7 +15,7 @@ Além do atual projeto, também foi feito uma aplicação para a web e um backen
 
 - **[NLW eSports Web](https://github.com/ImFelippe365/nlw-esports-web)**
 
-## Tecnologias utilizadas dentro do projeto
+## Tecnologias utilizadas no projeto
 
 - React
 - Expo
