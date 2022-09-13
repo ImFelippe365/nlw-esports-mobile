@@ -29,7 +29,7 @@ Para instalar e usar pelo repositório, clone o repositório e instale as depend
 npm install
 ```
 
-ou se preferir
+ou se preferir:
 
 ```
 yarn install
