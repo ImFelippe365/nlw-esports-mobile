@@ -19,15 +19,15 @@ Além do atual projeto, também foi feito uma aplicação para a web e um backen
 
 ### Instalação
 
-Para testar o aplicativo, clone o repositório e instale as dependências.
+Para testar o aplicativo, clone o repositório e instale as dependências no diretório raiz.
 
-Com NPM
+Use
 
 ```
 npm install
 ```
 
-Com yarn
+ou
 
 ```
 yarn install
