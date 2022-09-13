@@ -9,7 +9,7 @@ E ao decorrer dos 6 dias de evento, este foi o resultado final do aplicativo mob
 
 Além do atual projeto, também foi feito uma aplicação para a web e um backend.
 
-- Projeto NLW eSports **[Web][https://github.com/ImFelippe365/nlw-esports-web]**
+- Projeto NLW eSports **[Web](https://github.com/ImFelippe365/nlw-esports-web)**
 
 ### Tecnologias utilizadas dentro do projeto
 
