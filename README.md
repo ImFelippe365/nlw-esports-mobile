@@ -3,6 +3,7 @@
 <p align="center">
   <img src="src/assets/logo-nlw-esports@2x.png" />
 </p>
+
 Aplicativo mobile para encontrar um duo e se conectar para jogar juntos. É possível criar anúncios de um jogo em específico dentro da plataforma para que as pessoas encontrem e se conectem com a pessoa desejada. 
 
 Durante o evento do NLW da Rocketseat, essa foi a aplicação a ser desenvolvida durante o evento.
