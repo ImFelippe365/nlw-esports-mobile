@@ -22,7 +22,8 @@ Além do atual projeto, também foi feito uma aplicação para a web e um backen
 O projeto foi integrado utilizando a API que desenvolvi durante o evento. É necessário que ela esteja em execução durante o uso dessa aplicação para que seja fornecido as rotas de jogos, anúncios e criação de anúncios. Você pode encontra-la **[clicando aqui](https://github.com/ImFelippe365/nlw-esports-server)**
 
 Para isso, é necessário realizar uma pequena configuração dentro do projeto.
-Basta editar o arquivo ``requestConfig.ts`` da pasta ``services`` para o seu IP 
+Basta editar o arquivo ``requestConfig.ts`` da pasta ``services`` para o seu IP e a porta da API (que inicialmente é 3333).
+Exemplo: ``SEU_IP:PORT``
 
 ## Tecnologias utilizadas
 
