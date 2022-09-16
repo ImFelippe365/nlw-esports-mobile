@@ -23,7 +23,7 @@ O projeto foi integrado utilizando a API que desenvolvi durante o evento. É nec
 
 Para isso, é necessário realizar uma pequena configuração dentro do projeto.
 Basta editar o arquivo ``requestConfig.ts`` da pasta ``services`` para o seu IP e a porta da API (que inicialmente é 3333).
-Exemplo: ``SEU_IP:PORT``
+Exemplo: ``http://SEU_IP:PORT/``
 
 ## Tecnologias utilizadas
 
