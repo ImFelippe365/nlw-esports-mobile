@@ -13,9 +13,6 @@ import { Heading } from './../../components/Heading/index';
 import { DuoCard, DuoCardProps } from '../../components/DuoCard';
 import { DuoMatch } from '../../components/DuoMatch';
 import { useEffect, useState } from 'react';
-import baseUrl from '../../services/requestConfig';
-
-
 
 export function Game() {
 
@@ -24,22 +21,25 @@ export function Game() {
 
     const navigation = useNavigation();
     const route = useRoute();
+
     const game = route.params as GameParams;
 
     const handleGoBack = () => {
         navigation.goBack();
     }
 
-    const getDiscordUser = async (adsId: string) => {
-        fetch(`${baseUrl}/ads/${adsId}/discord`)
-            .then((response) => response.json())
-            .then(({ discord }) => setDiscordDuoSelected(discord));
-    }
-
     useEffect(() => {
-        fetch(`${baseUrl}/games/${game.id}/ads`)
-            .then((response) => response.json())
-            .then((data) => setDuos(data));
+        if (game.title === "Minecraft") {
+            setDuos([{
+                id: "1",
+                name: 'ImFelippe365',
+                hoursStart: '12:00',
+                hoursEnd: '18:00',
+                useVoiceChannel: true,
+                weekDays: [0, 6],
+                yearsPlaying: 8
+            }])
+        }
     }, [])
 
     return (
@@ -83,7 +83,7 @@ export function Game() {
                     renderItem={({ item }) =>
                         <DuoCard
                             data={item}
-                            onConnect={() => getDiscordUser(item.id)}
+                            onConnect={() => setDiscordDuoSelected('ImFelippe365#2814')}
                         />
                     }
                     ListEmptyComponent={() =>

@@ -9,22 +9,15 @@ import { styles } from './styles';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Background } from '../../components/Background';
 import { useNavigation } from '@react-navigation/native';
-import baseUrl from '../../services/requestConfig';
+import { games } from '../../utils/games';
 
 export function Home() {
 
-    const [games, setGames] = useState<GameCardProps[]>([])
     const navigation = useNavigation();
 
     const handleOpenGame = (game: GameCardProps) => {
         navigation.navigate('game', game);
     }
-
-    useEffect(() => {
-        fetch(`${baseUrl}/games`)
-            .then((response) => response.json())
-            .then((data) => setGames(data));
-    }, [])
 
     return (
         <Background>
