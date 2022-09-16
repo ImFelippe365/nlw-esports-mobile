@@ -35,6 +35,18 @@ Basta editar o arquivo ``requestConfig.ts`` da pasta ``services`` para o seu IP
 - Melhorar sistema de notificação
 - Autenticação
 
+## DEMO
+Caso queira ver mais de perto, basta instalar o **[Expo Go](https://expo.dev/client)** no seu celular e escanear o QR Code abaixo. 
+Funciona tanto para Android quanto iOS.
+
+**Ressaltando que a demo abaixo é uma aplicação estática, não faz nenhuma requisição de APIs**, já que não hospedei o back-end em nenhum lugar, não há como o app publicado se conectar com uma API local que não fosse a minha (com minha URL configurada). Quem sabe no futuro né?
+
+É apenas uma demonstração de como ficou o aplicativo. :)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/42660829/190726407-a060dbbf-5bbd-4e49-9524-a19ab9779e8d.png" width="250" />
+</p>
+
 ## Instalação
 
 Para instalar e usar pelo repositório, clone o repositório e instale as dependências usando o seguinte comando no diretório raiz.
@@ -51,15 +63,8 @@ yarn install
 
 Depois você pode utilizar ``npm start`` ou ``yarn start`` para iniciar o projeto e rodar num celular localmente.
 
-## Expo Go
-Se preferir interagir com a interface real, basta instalar o **[Expo Go](https://expo.dev/client)** no seu celular e escanear o QR Code abaixo.
-Ressaltando novamente que é necessário 
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/42660829/190726407-a060dbbf-5bbd-4e49-9524-a19ab9779e8d.png" width="250" />
-</p>
-
 ## Capturas de tela
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/42660829/190725817-d2a188f0-3a6e-4bc4-93ff-ea5ba1276e85.png" width="300" /> <img src="https://user-images.githubusercontent.com/42660829/190725807-671db00e-0fd3-4fd0-bfd5-61122dac749e.png" width="300" /> <img src="https://user-images.githubusercontent.com/42660829/190725813-3bc2b7a6-dafd-4c69-b799-9eed21bff248.png" width="300" /> 
 </p>
