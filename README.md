@@ -6,7 +6,8 @@
 </p>
 <br />
 
-Aplicativo mobile para encontrar um duo e se conectar para jogar juntos. É possível criar anúncios de um jogo em específico dentro da plataforma para que as pessoas encontrem e se conectem com a pessoa desejada. 
+Aplicativo mobile para encontrar um duo e se conectar para jogar juntos. 
+É possível encontrar e se conectar a outros jogadores para poderem jogarem juntos.
 
 Durante o evento do NLW da Rocketseat, essa foi a aplicação a ser desenvolvida durante o evento.
 E ao decorrer dos 6 dias de evento, este foi o resultado final do aplicativo mobile.
@@ -14,6 +15,7 @@ E ao decorrer dos 6 dias de evento, este foi o resultado final do aplicativo mob
 Além do atual projeto, também foi feito uma aplicação para a web e um backend.
 
 - **[NLW eSports Web](https://github.com/ImFelippe365/nlw-esports-web)**
+- **[NLW eSports Server](https://github.com/ImFelippe365/nlw-esports-server)**
 
 ## Tecnologias utilizadas no projeto
 
