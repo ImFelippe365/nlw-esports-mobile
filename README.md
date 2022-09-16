@@ -17,7 +17,11 @@ Além do atual projeto, também foi feito uma aplicação para a web e um backen
 - **[NLW eSports Web](https://github.com/ImFelippe365/nlw-esports-web)**
 - **[NLW eSports Server](https://github.com/ImFelippe365/nlw-esports-server)**
 
-## Tecnologias utilizadas no projeto
+## ⚠️ Importante
+
+O projeto foi integrado utilizando a API que desenvolvi durante o evento. É necessário que ela esteja em execução durante o uso dessa aplicação para que seja fornecido as rotas de jogos, anúncios e criação de anúncios. Você pode encontra-la **[clicando aqui](https://github.com/ImFelippe365/nlw-esports-server)**
+
+## Tecnologias utilizadas
 
 - React
 - Expo
