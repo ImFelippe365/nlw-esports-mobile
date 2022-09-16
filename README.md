@@ -32,9 +32,9 @@ Exemplo: ``http://SEU_IP:PORT/``
 - TypeScript
 
 ## Futuras melhorias
-- Opção de criar alerta para novos anúncios de um jogo
-- Melhorar sistema de notificação
-- Autenticação
+- [ ] Opção de criar alerta para novos anúncios de um jogo
+- [ ] Melhorar sistema de notificação
+- [ ] Autenticação
 
 ## Demo
 Caso queira ver mais de perto, basta instalar o **[Expo Go](https://expo.dev/client)** no seu celular e escanear o QR Code abaixo. 
