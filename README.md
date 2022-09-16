@@ -35,7 +35,7 @@ Basta editar o arquivo ``requestConfig.ts`` da pasta ``services`` para o seu IP
 - Melhorar sistema de notificação
 - Autenticação
 
-## DEMO
+## Demo
 Caso queira ver mais de perto, basta instalar o **[Expo Go](https://expo.dev/client)** no seu celular e escanear o QR Code abaixo. 
 Funciona tanto para Android quanto iOS.
 
