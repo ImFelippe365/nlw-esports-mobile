@@ -9,6 +9,7 @@ import { styles } from './styles';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Background } from '../../components/Background';
 import { useNavigation } from '@react-navigation/native';
+import baseUrl from '../../services/requestConfig';
 
 export function Home() {
 
@@ -20,7 +21,7 @@ export function Home() {
     }
 
     useEffect(() => {
-        fetch(`http://192.168.0.18:3333/games`)
+        fetch(`${baseUrl}/games`)
             .then((response) => response.json())
             .then((data) => setGames(data));
     }, [])

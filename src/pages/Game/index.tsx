@@ -13,6 +13,7 @@ import { Heading } from './../../components/Heading/index';
 import { DuoCard, DuoCardProps } from '../../components/DuoCard';
 import { DuoMatch } from '../../components/DuoMatch';
 import { useEffect, useState } from 'react';
+import baseUrl from '../../services/requestConfig';
 
 
 
@@ -30,13 +31,13 @@ export function Game() {
     }
 
     const getDiscordUser = async (adsId: string) => {
-        fetch(`http://192.168.0.18:3333/ads/${adsId}/discord`)
+        fetch(`${baseUrl}/ads/${adsId}/discord`)
             .then((response) => response.json())
             .then(({ discord }) => setDiscordDuoSelected(discord));
     }
 
     useEffect(() => {
-        fetch(`http://192.168.0.18:3333/games/${game.id}/ads`)
+        fetch(`${baseUrl}/games/${game.id}/ads`)
             .then((response) => response.json())
             .then((data) => setDuos(data));
     }, [])
