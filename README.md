@@ -27,6 +27,11 @@ O projeto foi integrado utilizando a API que desenvolvi durante o evento. É nec
 - Expo
 - TypeScript
 
+## Futuras melhorias
+- Opção de criar alerta para novos anúncios de um jogo
+- Melhorar sistema de notificação
+- Autenticação
+
 ## Instalação
 
 Para instalar e usar pelo repositório, clone o repositório e instale as dependências usando o seguinte comando no diretório raiz.
